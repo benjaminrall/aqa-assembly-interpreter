@@ -12,19 +12,19 @@ A virtual environment and interpreter built in C# to execute programs written us
 ## Installation and Usage
 
 First, clone the repository:
-```sh
+```shell
 git clone https://github.com/benjaminrall/aqa-assembly-language.git
 cd aqa-assembly-interpreter
 ```
 
 The project can then be run from the main directory using the following command:
-```
+```shell
 dotnet run --project AssemblyCode
 ```
 This will start an interactive environment, which continuously prompts the user for a path to an assembly script until they choose to exit.
 
 Alternatively, a script path can be specified as a command line argument. For example:
-```
+```shell
 dotnet run --project AssemblyCode examples/sort.assembly
 ```
 
