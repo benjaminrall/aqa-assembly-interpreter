@@ -9,7 +9,7 @@ A virtual environment and interpreter built in C# to execute programs written us
 - Extra I/O commands `IN` and `OUT` for reading from and writing to the console
 - Robust handling of syntax and runtime errors
 
-## Usage Instructions
+## Installation and Usage
 
 First, clone the repository:
 ```sh
